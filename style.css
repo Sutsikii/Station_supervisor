@@ -120,6 +120,59 @@ body > nav > div.nav-items > ul > div.connection{
     transform: rotate(45deg) translate(-5px, -5px);
 }
 
+/* Footer */
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 2vw;
+
+    background-color: blue;
+    color: white;
+}
+
+footer img {
+    width: 15vw;
+    height: 10vw;
+    background-color: white;
+    fill: white;
+}
+
+.footer-infos {
+    display: flex;
+}
+
+.footer-col {
+    display: flex;
+    flex-direction: column;
+    margin: 0 2vw;
+}
+
+.footer-col.social {
+    justify-content: flex-end;
+}
+
+.footer-col h3 {
+    font-size: calc(.8vw + 6px);
+    margin-bottom: 1vw;
+}
+
+.col-infos {
+    font-size: calc(.7vw + 5px);
+}
+
+.social-icons {
+    display: flex;
+}
+
+.social-icons img {
+    width: 3vw;
+    height: 3vw;
+    margin-right: 1vw;
+    background-color: white;
+    border-radius: 5vw;
+}
+
 @media(max-width:600px){
 
     .navbar{
