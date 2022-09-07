@@ -193,12 +193,14 @@ body > nav > div.nav-items > ul > div.connection{
     width: 10vw;
     height: 3vw;
     margin-left: auto;
+    margin-top: 1vw;
     border: 1px solid rgba(0, 0, 0, .7);
     border-radius: 1.2vw;
 }
 
 .contact-form button img {
     width: 100%;
+    transform: translate(0, -3%);
 }
 
 
