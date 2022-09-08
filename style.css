@@ -36,6 +36,9 @@ nav ul.navbar li{
     padding: 10px;
 }
 
+div.logo{
+    cursor: pointer;
+}
 
 .nav-link {
     font-size: 0.94rem;
