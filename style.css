@@ -188,6 +188,184 @@ body > nav > div.nav-items > ul > div:nth-child(4) > select{
     transform: rotate(45deg) translate(-5px, -5px);
 }
 
+/* Intro Area */
+
+.intro-content {
+    display: flex;
+    justify-content: space-between;
+    width: 90vw;
+    padding: 35px;
+    margin: 30px auto;
+    font-size: .9vw;
+    color: black;
+}
+
+.shapes {
+    display: flex;
+}
+
+.shapes img {
+    width: 20vw;
+    margin-right: 1.5vw;
+    border-radius: 3vw 0 3vw 0;
+}
+
+.shape {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.shape span {
+    width: 17vw;
+    height: 17vw;
+    background-color: #2C60AC;
+    border-radius: 0 3vw 3vw 0;
+}
+
+.intro-content .infos {
+    display: flex;
+}
+
+.intro-content .infos .title h1,
+.intro-content .infos .title h2 {
+    font-size: 3.4vw;
+    font-weight: 900;
+}
+
+.intro-content .infos .title .white-one {
+    color: white;
+    text-shadow: -1px -1px 0 #2C3540, 
+    1px -1px 0 #2C3540, 
+    -1px 1px 0 #2C3540, 
+    1px 1px 0 #2C3540;
+}
+
+.intro-content .infos button {
+    margin: auto 0;
+}
+
+.intro-content .infos .title {
+    margin-right: 5vw;
+}
+
+/* Keys Area */
+
+.keys-content {
+    display: flex;
+    flex-direction: column;
+    width: 90vw;
+    padding: 35px;
+    margin: 30px auto;
+    margin-bottom: 0;
+}
+
+.key-block {
+    display: flex;
+    justify-content: space-between;
+    width: 90vw;
+    height: 25vw;
+    margin-bottom: 2vw;
+}
+
+.key-block img {
+    width: 43%;
+    height: 100%;
+    background-color: #2C60AC;
+}
+
+.key-block img.large {
+    width: 55%;
+    height: 100%;
+    background-color: #2C60AC;
+}
+
+.key-app {
+    display: flex;
+    width: 55%;
+    height: 100%;
+}
+
+.key-app .infos {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 2vw;
+}
+
+.key-app .infos p {
+    width: 80%;
+    font-size: 2.6vw;
+    font-weight: 900;
+}
+
+.key-app img {
+    height: 100%;
+    background-color: unset;
+}
+
+/* Coms Area */
+
+.coms-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90vw;
+    padding: 35px;
+    margin: 30px auto;
+    margin-top: 0;
+    font-size: .9vw;
+    color: black;
+}
+
+.coms-content h2 p {
+    color: black;
+}
+
+.coms-content #relou-title {
+    font-size: 2.5vw;
+    margin-bottom: 4vw;
+}
+
+.coms {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.com {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 13vw;
+    height: 20vw;
+    padding: 2vw 1.5vw;
+    border: 2px solid #2C3540;
+    border-radius: 10vw;
+    margin: 0 2vw;
+}
+
+.com img {
+    width: 3vw;
+    height: 3vw;
+}
+
+.com p {
+    font-size: .8vw;
+    text-align: center;
+    margin-top: 2.5vw;
+}
+
+.reverse-arrow {
+    transform: rotate(180deg) !important;
+}
+
+.com img.stars {
+    width: 10vw;
+    height: unset;
+}
+
 /* About Area */
 
 .about-content {
@@ -248,6 +426,10 @@ body > nav > div.nav-items > ul > div:nth-child(4) > select{
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+}
+
+.to-contact .arrow-btn {
+    border-color: white;
 }
 
 /* Contact Area */
@@ -344,9 +526,10 @@ body > nav > div.nav-items > ul > div:nth-child(4) > select{
     margin-left: auto;
     margin-top: 1vw;
     border: 1px solid rgba(0, 0, 0, .7);
-    border-radius: 1.2vw;
+    border-radius: 2vw;
     background-color: transparent;
     padding: .5vw;
+    cursor: pointer;
 }
 
 .arrow-btn img {
@@ -484,7 +667,7 @@ body > nav > div.nav-items > ul > div:nth-child(4) > select{
 
 .plan-wrapper .desc ul li {
     list-style: disc;
-    margin-bottom: .2vw;
+    margin-bottom: .5vw;
 }
 
 .plan-wrapper .desc button {
