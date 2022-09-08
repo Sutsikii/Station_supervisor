@@ -20,16 +20,13 @@
                     <li><a href="/about.html" class="nav-link">Qui sommes-nous</a></li>
                     <li><a href="/contact.html" class="nav-link">Contact</a></li>
 
-                    <div clas="select-language custom-select">
-                        <select>
-                            <option value="fr">fr</option>
-                            <option value="en">en</option>
-                        </select>
+                    <div class="select-language">
+                        <button id="selected-lg" onclick="toggleLanguageButton();">FR</button>
+                        <img id="lil-triangle" src="/assets/traingle_vert.svg" alt="">
+                        <button id="selectable" onclick="changeLanguage();" >EN</button>
                     </div>
         
-                    <div class="connection">
-                        <a href="#" class="myButton">se connecter</a>
-                    </div> 
+                    <button class="login-btn" >SE CONNECTER</button>
                 </ul>   
             </div>
 
