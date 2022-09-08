@@ -120,6 +120,149 @@ body > nav > div.nav-items > ul > div.connection{
     transform: rotate(45deg) translate(-5px, -5px);
 }
 
+/* About Area */
+
+.about-content {
+    display: flex;
+    justify-content: center;
+    width: 90vw;
+    padding: 35px;
+    margin: 30px auto;
+    font-size: .9vw;
+    color: white;
+}
+
+.about-content img {
+    width: 30vw;
+    height: 28vw;
+    background-color: white;
+    border-radius: 0 3vw;
+}
+
+.about-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #2C3540;
+}
+
+.about h2 {
+    margin: 3vw;
+}
+
+.about #relou-title {
+    font-size: 2vw;
+    color: #2C3540;
+    text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
+}
+
+.about .texts {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin-bottom: 3vw;
+}
+
+.about .texts p {
+    width: 45%;
+}
+
+/* Contact Area */
+
+.contact-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 35px;
+    margin: 30px 0;
+    font-size: .9vw;
+}
+
+.contact-content h2 {
+    font-size: 1.5vw;
+    margin-bottom: 1.5vw;
+}
+
+.contact-content .relou-title-sub {
+    color: black;
+}
+
+#relou-title {
+    position: relative;
+    font-size: 1.8vw;
+    letter-spacing: .5px;
+    transform: translate(-.3vw, -.3vw);
+    color: white;
+    pointer-events: none;
+    text-shadow: -1px -1px 0 #2C60AC, 1px -1px 0 #2C60AC, -1px 1px 0 #2C60AC, 1px 1px 0 #2C60AC;
+}
+
+.relou-title-sub {
+    position: absolute;
+    color: white;
+    transform: translate(-.6vw, .3vw);
+    text-shadow: none;
+}
+
+.contact-form {
+    width: 40vw;
+    font-size: .6vw;
+    margin-top: 2vw;
+}
+
+.contact-form input,
+.contact-form textarea {
+    font-size: 1vw;
+}
+
+.req-infos {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2vw;
+}
+
+.req-infos input {
+    width: 45%;
+    height: 3vw;
+    padding: 1vw;
+    border: 1px solid rgba(0, 0, 0, .7);
+    border-radius: 1vw;
+}
+
+.contact-form textarea {
+    width: 100%;
+    height: 12vw;
+    padding: 1.5vw;
+    border: 1px solid rgba(0, 0, 0, .7);
+    border-radius: 1.8vw;
+    resize: none;
+}
+
+.contact-form button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10vw;
+    height: 3vw;
+    margin-left: auto;
+    margin-top: 1vw;
+    border: 1px solid rgba(0, 0, 0, .7);
+    border-radius: 1.2vw;
+}
+
+.contact-form button img {
+    width: 100%;
+    transform: translate(0, -3%);
+}
+
+
 /* Footer */
 
 footer {
@@ -134,8 +277,6 @@ footer {
 footer img {
     width: 15vw;
     height: 10vw;
-    background-color: white;
-    fill: white;
 }
 
 .footer-infos {
@@ -169,7 +310,6 @@ footer img {
     width: 3vw;
     height: 3vw;
     margin-right: 1vw;
-    background-color: white;
     border-radius: 5vw;
 }
 
