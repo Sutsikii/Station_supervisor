@@ -378,62 +378,6 @@ body > nav > div.nav-items > ul > div.connection{
     transform: rotate(45deg) translate(-5px, -5px);
 }
 
-<<<<<<< HEAD
-=======
-/* About Area */
-
-.about-content {
-    display: flex;
-    justify-content: center;
-    width: 90vw;
-    padding: 35px;
-    margin: 30px auto;
-    font-size: .9vw;
-    color: white;
-}
-
-.about-content img {
-    width: 30vw;
-    height: 28vw;
-    background-color: white;
-    border-radius: 0 3vw;
-}
-
-.about-wrapper {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-}
-
-.about {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: #2C3540;
-}
-
-.about h2 {
-    margin: 3vw;
-}
-
-.about #relou-title {
-    font-size: 2vw;
-    color: #2C3540;
-    text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
-}
-
-.about .texts {
-    display: flex;
-    justify-content: space-between;
-    width: 80%;
-    margin-bottom: 3vw;
-}
-
-.about .texts p {
-    width: 45%;
-}
-
->>>>>>> 5066bc95e3a72012d1f27dee7607c801a29b276d
 /* Contact Area */
 
 .contact-content {
@@ -451,39 +395,19 @@ body > nav > div.nav-items > ul > div.connection{
     margin-bottom: 1.5vw;
 }
 
-<<<<<<< HEAD
-=======
-.contact-content .relou-title-sub {
-    color: black;
-}
-
->>>>>>> 5066bc95e3a72012d1f27dee7607c801a29b276d
 #relou-title {
     position: relative;
     font-size: 1.8vw;
     letter-spacing: .5px;
-<<<<<<< HEAD
-=======
-    transform: translate(-.3vw, -.3vw);
-    color: white;
-    pointer-events: none;
-    text-shadow: -1px -1px 0 #2C60AC, 1px -1px 0 #2C60AC, -1px 1px 0 #2C60AC, 1px 1px 0 #2C60AC;
->>>>>>> 5066bc95e3a72012d1f27dee7607c801a29b276d
 }
 
 .relou-title-sub {
     position: absolute;
-<<<<<<< HEAD
     z-index: -1;
     top: -.5vw;
     right: -.5vw;
     color: white;
     text-shadow: -1px -1px 0 #2C60AC, 1px -1px 0 #2C60AC, -1px 1px 0 #2C60AC, 1px 1px 0 #2C60AC;
-=======
-    color: white;
-    transform: translate(-.6vw, .3vw);
-    text-shadow: none;
->>>>>>> 5066bc95e3a72012d1f27dee7607c801a29b276d
 }
 
 .contact-form {
