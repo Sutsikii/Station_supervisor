@@ -12,3 +12,10 @@ window.onscroll = () =>
     navbar.classList.remove('open-menu');
     menu.classList.remove('move');
 }
+
+// Language button
+
+const toggleLanguageButton = () => {
+    const sel = document.getElementById('selectable');
+    sel.classList.contains('active') ? sel.classList.remove('active') : sel.classList.add('active');
+}
