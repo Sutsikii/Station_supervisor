@@ -611,6 +611,7 @@ body > nav > div.nav-items > ul > div:nth-child(4) > select{
     height: unset;
     border-radius: 0;
     margin-left: 2.5vw;
+    cursor: pointer;
 }
 
 
