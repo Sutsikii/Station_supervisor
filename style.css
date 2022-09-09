@@ -536,7 +536,6 @@ body > nav > div.nav-items > ul > div:nth-child(4) > select{
     width: 60%;
     height: unset;
     border-radius: 1.2vw;
-    transform: translate(0, -3%);
     background-color: transparent;
 }
 
